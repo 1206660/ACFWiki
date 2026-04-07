@@ -1,0 +1,19 @@
+{
+  "name": "slimwiki",
+  "version": "1.0.0",
+  "description": "SlimWiki local mirror and viewer",
+  "main": "server.js",
+  "scripts": {
+    "mirror": "node scripts/mirror-slimwiki.js",
+    "serve": "node server.js",
+    "start": "node server.js",
+    "bootstrap": "npm run mirror && npm run serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "playwright": "^1.59.1"
+  }
+}

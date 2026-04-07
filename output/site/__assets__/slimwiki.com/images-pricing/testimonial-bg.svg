@@ -1,0 +1,45 @@
+<svg width="1440" height="672" viewBox="0 0 1440 672" fill="none" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <rect width="1440" height="672" transform="matrix(1 0 0 -1 0 672)" fill="url(#paint0_linear)" />
+    <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1440" height="672">
+        <rect width="1440" height="672" transform="matrix(1 0 0 -1 0 672)" fill="white" />
+    </mask>
+    <g mask="url(#mask0)">
+        <mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="260" y="88" width="56" height="56">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M288 144C303.464 144 316 131.464 316 116C316 100.536 303.464 88 288 88C272.536 88 260 100.536 260 116C260 131.464 272.536 144 288 144Z"
+                fill="white" />
+        </mask>
+        <g mask="url(#mask1)">
+            <rect x="260" y="88" width="56" height="56" fill="url(#pattern0)" />
+        </g>
+        <path
+            d="M323 116C323 135.33 307.33 151 288 151C268.67 151 253 135.33 253 116C253 96.67 268.67 81 288 81C307.33 81 323 96.67 323 116Z"
+            stroke="url(#paint1_linear)" stroke-width="2" />
+        <mask id="mask2" mask-type="alpha" maskUnits="userSpaceOnUse" x="252" y="80" width="72" height="72">
+            <path
+                d="M323 116C323 135.33 307.33 151 288 151C268.67 151 253 135.33 253 116C253 96.67 268.67 81 288 81C307.33 81 323 96.67 323 116Z"
+                fill="white" stroke="white" stroke-width="2" />
+        </mask>
+        <g mask="url(#mask2)"></g>
+        <path opacity="0.654994" fill-rule="evenodd" clip-rule="evenodd"
+            d="M414.5 700C414.5 636.863 465.861 585.5 528.997 585.5C592.132 585.5 643.5 636.862 643.5 700C643.5 763.138 592.132 814.5 528.997 814.5C465.861 814.5 414.5 763.137 414.5 700ZM528.997 590.5C468.623 590.5 419.5 639.624 419.5 700C419.5 760.376 468.623 809.5 528.997 809.5C589.371 809.5 638.5 760.376 638.5 700C638.5 639.624 589.371 590.5 528.997 590.5Z"
+            fill="white" fill-opacity="0.3" />
+        <path opacity="0.15"
+            d="M220 0.5C220 115.099 127.099 208 12.5 208C-102.099 208 -195 115.099 -195 0.5C-195 -114.099 -102.099 -207 12.5 -207C127.099 -207 220 -114.099 220 0.5Z"
+            stroke="white" stroke-width="10" />
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M1121.07 39.9435C1128.35 32.5751 1138.45 28.2239 1148.78 28.2239H1372.09C1393.59 28.2239 1413.81 46.031 1413.81 67.6129V292.274C1413.81 302.698 1408.42 312.49 1401.09 319.869L1319.76 400.486C1318.53 402.144 1317.07 403.585 1315.42 404.827L1160.29 561.173C1153.02 568.502 1142.94 572.576 1132.64 572.576H899.189L835.877 636.397C831.724 640.567 826.452 642.776 821.005 642.776C815.562 642.776 810.456 640.691 806.304 636.521C797.992 628.189 798.673 614.673 806.985 606.337L874.835 539.62V308.327C874.835 297.938 877.488 288.093 884.778 280.714L1121.07 39.9435ZM1338.99 70.9218H1162.05V249.91L1338.99 70.9218ZM1119.5 103.544L1002.49 222.063V410.014L1119.5 292.605V103.544ZM959.937 265.159L917.386 309.793V496.925L959.937 452.708V265.159ZM1062.3 408.915H1251.15L1131.17 529.885H941.74L1062.3 408.915Z"
+            fill="white" fill-opacity="0.2" />
+    </g>
+    <defs>
+        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+            <use xlink:href="#image0" transform="scale(0.00833333)" />
+        </pattern>
+        <linearGradient id="paint0_linear" x1="720" y1="-336" x2="204.964" y2="767.65" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#6DDAD0" />
+            <stop offset="0.638034" stop-color="#0096FF" />
+            <stop offset="1" stop-color="#005FCB" />
+        </linearGradient>
+    </defs>
+</svg>
