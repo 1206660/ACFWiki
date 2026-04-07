@@ -77,6 +77,46 @@ Or:
 ./start-local.sh
 ```
 
+## GitHub Pages Static Publish
+
+This repo can also be published as a pure static site on GitHub Pages.
+
+How it works:
+
+- Source content stays in `output/site`
+- PDFs stay in `output/pdf`
+- `npm run pages:build` assembles a Pages-ready `dist` directory
+- `.github/workflows/deploy-pages.yml` deploys `dist` to GitHub Pages on every push to `main`
+
+Build the Pages artifact locally:
+
+```bash
+npm run pages:build
+```
+
+Generated output:
+
+- `dist`: GitHub Pages publish directory
+
+Important details:
+
+- `dist/.nojekyll` is created so `__assets__` is not ignored by GitHub Pages
+- Root index links are rewritten for project-site deployment under `/ACFWiki/`
+- Existing mirrored pages already use relative asset links, so nested pages remain static-host friendly
+
+Enable GitHub Pages in the repository:
+
+1. Open repository `Settings`
+2. Open `Pages`
+3. Set `Source` to `GitHub Actions`
+4. Push to `main` or manually run the `Deploy GitHub Pages` workflow
+
+Expected published URL:
+
+```text
+https://1206660.github.io/ACFWiki/
+```
+
 ## Configuration
 
 Optional environment variables:
@@ -181,6 +221,20 @@ sudo systemctl restart acfwiki
 ```
 
 If you do not use `systemd`, restart the Node process manually.
+
+If you also use GitHub Pages:
+
+```bash
+cd /root/Code/SlimWiki
+git pull
+npm install
+npm run mirror
+git add output package-lock.json package.json scripts README.md .github
+git commit -m "Refresh mirrored wiki"
+git push
+```
+
+After the push, GitHub Actions will rebuild and redeploy Pages automatically.
 
 ## Git Push With SSH
 

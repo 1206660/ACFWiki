@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "mirror": "node scripts/mirror-slimwiki.js",
+    "pages:build": "node scripts/build-pages.js",
     "serve": "node server.js",
     "start": "node server.js",
     "bootstrap": "npm run mirror && npm run serve"
